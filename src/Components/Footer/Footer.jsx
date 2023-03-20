@@ -5,7 +5,7 @@ import EndFooter from "../EndFooter/EndFooter";
 const Footer = () => {
   return (
     <footer className=" ">
-      <div className="container-fluid px-5 py-5  padding-mob border">
+      <div className={`container-fluid px-5 py-5  padding-mob border ${style.editPadding}`}>
         <div className="row">
           <div className="col-md-2 col-6">
             <div className="footer-text d-flex flex-column">
@@ -16,7 +16,7 @@ const Footer = () => {
               <span className={`colorBlue fw-semibold footer-fs ${style.footerFs}`}>Latest Updates</span>
             </div>
           </div>
-          <div className="col-md-2 col-6 ">
+          <div className={`col-md-2 col-6 ${style.textEnd}`}>
             <div className="footer-text d-flex flex-column ">
               <span className={`text-muted footer-fs ${style.footerFs}`}>ABOUT</span>
               <span className={`colorBlue fw-semibold footer-fs ${style.footerFs}`}>WHAT WE DO </span>
@@ -29,7 +29,7 @@ const Footer = () => {
               <span className={`colorBlue fw-semibold footer-fs ${style.footerFs}`}>Careers </span>
             </div>
           </div>
-          <div className="col-md-4 offset-md-2">
+          <div className={`col-md-4 offset-md-2 ${style.mTop}`}>
             <div className="item-search ">
               <h6 className={`colorBlue fw-semibold footer-fs ${style.footerFs}`}> NEWSLETTER </h6>
               <p className={`footer-fs text-muted ${style.footerFs}`}>

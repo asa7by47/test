@@ -22,7 +22,14 @@
 }
 @media screen and (max-width: 767px) {
     .mTop{
-        margin-top: 0.5rem;
+        margin-top: 1rem;
+    }
+    .editPadding{
+        padding: 3rem 2rem !important;
+    }
+    .textEnd{
+        text-align: end;
+        padding-right: 1rem;
     }
 }
 @media screen  and (max-width:425px){
