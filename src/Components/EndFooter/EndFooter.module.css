@@ -15,7 +15,7 @@
     }
     
     .removePad{
-        padding: 0 !important;
+        padding: 0 1rem !important;
     }
     .bgMop{
         width: 50% !important;
