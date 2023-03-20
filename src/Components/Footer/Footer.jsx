@@ -43,7 +43,7 @@ const Footer = () => {
                 className={`w-75 px-2 py-2  mob-input ${style.input}`}
                 placeholder="Your Email"
               />
-              <button className={` text-center fs-6 fw-bolder ${style.footerBtn} px-4 py-0`}>
+              <button className={` text-center fs-6 fw-bolder ${style.footerBtn} px-3 py-0`}>
                 SIGN UP
               </button>
             </div>
